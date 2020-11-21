@@ -100,10 +100,5 @@ namespace Lab6.Controllers
             return Ok(dbStudent);
         }
         
-
-        public IActionResult Index()
-        {
-            return View();
-        }
     }
 }
